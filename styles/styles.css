@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", serif;
+  font-weight: 400;
+  color: #131D26;
+  background: #082B59;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+header {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+}
+.logo img {
+  height: 80px;
+}
+
+.menu {
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.menu-item {
+  color: #131D26;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+.menu-item:hover,
+.menu-item:active {
+  color: #d98555;
+  text-decoration: underline;
+}
+
+.active {
+  color: #D98555;
+  text-decoration: underline;
+}
+
+.description-container {
+  background-color: #f2f2f2;
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 40px auto;
+}
+.coffee-image {
+  width: 50%;
+  display: flex;
+  align-items: stretch;
+}
+.description-container img {
+  width: 100%;
+  max-width: 100%;
+}
+.description {
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+  padding: 50px;
+}
+
+p a {
+  color: #082b59;
+}
+p a:hover {
+  color: #d98555;
+}
+p {
+  font-size: 15px;
+  line-height: 2;
+}
+
+.button-container {
+  padding-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.button {
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #082b59;
+  border: 1.5px solid #082b59;
+  transition: 0.3s ease;
+  font-size: 16px;
+}
+.button:hover {
+  color: #f2f2f2;
+  background: #082b59;
+  border: 1.5px solid #082b59;
+}
+
+.bottom-description {
+  display: block;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 80px;
+}
+.bottom-description img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.bottom-description p {
+  font-size: 18px;
+}
+
+/* products.html */
+.products-container {
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 40px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.products img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.coffee-decription {
+  flex: 1;
+  background-color: #D98555;
+
+}
+
+/* footer */
+footer {
+  background-color: #f2f2f2;
+  height: 80px;
+  text-align: center;
+  margin-top: auto;
+  padding: 40px;
+  border-top: 1.5px solid #131d26; /* Цвет и толщина линии */
+}
+footer a {
+  color: #131d26;
+  text-decoration: none;
+  margin: 0 15px;
+}
+footer a:hover {
+  color: #d98555;
+}
+footer a i {
+  font-size: 40px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+  }
+  .logo img {
+    align-items: center;
+  }
+  .menu {
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #000000;
+    box-sizing: border-box;
+  }
+
+  .menu a {
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .menu a:last-child {
+    border-bottom: none;
+  }
+  .description-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .description-container div {
+    width: 100%;
+  }
+  
+  .coffee-image {
+    width: 50%;
+  }
+
+  .description {
+    width: 100%;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+  
+  .bottom-description img {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+}
+  .coffee-decription {
+    text-align: center;
+}
+}
