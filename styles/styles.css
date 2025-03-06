@@ -511,8 +511,8 @@ footer a i {
   .coffee-decription {
     text-align: left;
   }
-}
 
-footer {
-  padding: 10px 10px 30px 10px;
+  footer {
+    padding: 10px 10px 30px 10px;
+  }
 }
