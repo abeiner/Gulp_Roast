@@ -418,12 +418,16 @@ footer a i {
     flex-direction: column;
     align-items: center;
   }
+
+  .bottom-description img{
+    width: 300px;
+  }
   
   .products {
     grid-template-columns: 1fr 1fr;
   }
   .coffee-decription {
-    padding: 60px;
+    padding: 40px;
   }
 
   footer {
@@ -477,7 +481,6 @@ footer a i {
   }
   .coffee-image {
     width: 100%;
-
   }
   
   p {
@@ -508,4 +511,8 @@ footer a i {
   .coffee-decription {
     text-align: left;
   }
+}
+
+footer {
+  padding: 10px 10px 30px 10px;
 }
