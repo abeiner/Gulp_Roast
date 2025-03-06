@@ -70,7 +70,7 @@ h1 {
 
 /* index.html */
 .home-main {
-  background-image: url("/images/gulp-bg.jpg");
+  background-image: url("../images/gulp-bg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -513,6 +513,6 @@ footer a i {
   }
 
   footer {
-    padding: 10px 10px 30px 10px;
+    padding: 10px 15px 30px 15px;
   }
 }
