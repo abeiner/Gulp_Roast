@@ -243,7 +243,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1.5px solid #131d26;
+  border-top: 0.5px solid #131d26;
 }
 footer a {
   color: #131d26;
