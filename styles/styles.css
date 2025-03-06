@@ -56,7 +56,7 @@ h1 {
 
 /* index.html */
 .home-main {
-  background-image: url(/images/gulp-bg.jpg);
+  background-image: url(images/gulp-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,26 +65,26 @@ h1 {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .home-description {
-  background-color: rgba(242, 242, 242, 0.9);
   padding: 100px 100px;
-  max-width: 900px;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
   align-items: center;}
 
 .home-description h1 {
-  font-size: 60px;
+  font-size: 80px;
+  color: #ffffff;
 }
 
 .home-description p {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
+  color: #ffffff;
   line-height: 2;
 }
 
